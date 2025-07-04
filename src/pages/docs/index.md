@@ -158,17 +158,17 @@ tiene un gran potencial de crecimiento:
 
 ### Publicaciones y recursos educativos
 
-- [Folleto de la NASA: "Cosas que los agujeros negros no son"](https://svs.gsfc.nasa.gov/vis/a010000/a013300/a013322/BlackHoleTrifold_es_printable.pdf): Tríptico que desmitifica conceptos erróneos sobre los agujeros negros y proporciona datos interesantes de manera sencilla.
-- [Artículo de National Geographic: "Agujeros negros: qué son y cómo encontrarlos"](https://www.nationalgeographic.es/espacio/agujeros-negros): Explicación detallada y accesible sobre la naturaleza de los agujeros negros y su detección en el universo.
+- <a href="https://svs.gsfc.nasa.gov/vis/a010000/a013300/a013322/BlackHoleTrifold_es_printable.pdf" target="_blank" rel="noopener">Folleto de la NASA: "Cosas que los agujeros negros no son"</a>: Tríptico que desmitifica conceptos erróneos sobre los agujeros negros y proporciona datos interesantes de manera sencilla.
+- <a href="https://www.nationalgeographic.es/espacio/agujeros-negros" target="_blank" rel="noopener">Artículo de National Geographic: "Agujeros negros: qué son y cómo encontrarlos"</a>: Explicación detallada y accesible sobre la naturaleza de los agujeros negros y su detección en el universo.
 
 #### Videos educativos
 
-- [¿Qué son los agujeros de gusano y por qué podrían ser la clave para viajar en el tiempo?](https://www.youtube.com/watch?v=bWl21CgyBXY): Video de YouTube que explica de manera sencilla y visual qué son los agujeros de gusano y su relevancia en la física teórica.
-- [Agujeros de gusano o cómo romper el espacio tiempo](https://www.youtube.com/watch?v=duIDvO_QGBY): Video que aborda la posibilidad de los agujeros de gusano y su implicación en la estructura del espacio-tiempo.
+- <a href="https://www.youtube.com/watch?v=bWl21CgyBXY" target="_blank" rel="noopener">¿Qué son los agujeros de gusano y por qué podrían ser la clave para viajar en el tiempo?</a>: Video de YouTube que explica de manera sencilla y visual qué son los agujeros de gusano y su relevancia en la física teórica.
+- <a href="https://www.youtube.com/watch?v=duIDvO_QGBY" target="_blank" rel="noopener">Agujeros de gusano o cómo romper el espacio tiempo</a>: Video que aborda la posibilidad de los agujeros de gusano y su implicación en la estructura del espacio-tiempo.
 
 #### Artículos y blogs
 
-- [Agujeros negros: a través del tiempo y del espacio](https://biolabzv.blogspot.com/2014/02/agujeros-negros-traves-del-tiempo-y-del.html): Artículo del blog BioLab ZV que aborda preguntas complejas sobre los agujeros negros y los agujeros de gusano de manera accesible.
+- <a href="https://biolabzv.blogspot.com/2014/02/agujeros-negros-traves-del-tiempo-y-del.html" target="_blank" rel="noopener">Agujeros negros: a través del tiempo y del espacio</a>: Artículo del blog BioLab ZV que aborda preguntas complejas sobre los agujeros negros y los agujeros de gusano de manera accesible.
 
 ## 📊 Resultados y análisis de resultados
 

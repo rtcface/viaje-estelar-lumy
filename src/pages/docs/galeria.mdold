@@ -1,0 +1,19 @@
+---
+title: "Assets"
+layout: "../../layouts/Docs.astro"
+---
+
+# Galeria del juego
+
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 my-8">
+  <img src="/imgs/galeria/1.jpg" alt="Galería 1" class="w-full h-40 object-cover rounded shadow" />
+  <img src="/imgs/galeria/2.jpg" alt="Galería 2" class="w-full h-40 object-cover rounded shadow" />
+  <img src="/imgs/galeria/3.jpg" alt="Galería 3" class="w-full h-40 object-cover rounded shadow" />
+  <img src="/imgs/galeria/4.jpg" alt="Galería 4" class="w-full h-40 object-cover rounded shadow" />
+  <img src="/imgs/galeria/5.jpg" alt="Galería 5" class="w-full h-40 object-cover rounded shadow" />
+  <img src="/imgs/galeria/6.jpg" alt="Galería 6" class="w-full h-40 object-cover rounded shadow" />
+  <img src="/imgs/galeria/7.jpg" alt="Galería 7" class="w-full h-40 object-cover rounded shadow" />
+  <img src="/imgs/galeria/8.jpg" alt="Galería 8" class="w-full h-40 object-cover rounded shadow" />
+  <img src="/imgs/galeria/9.jpg" alt="Galería 9" class="w-full h-40 object-cover rounded shadow" />
+  <img src="/imgs/galeria/10.jpg" alt="Galería 10" class="w-full h-40 object-cover rounded shadow" />
+</div>
