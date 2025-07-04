@@ -19,7 +19,7 @@ videojuego
 <img src="/imgs/cards/lumi.png" class="object-contain m-[3rem] [transform:scale(1)]">
 </div>
 
-## **Características del juego**
+## 🎮 Características del juego
 
 - Aprendizaje divertido y accesible
 - 8 niveles con historia científica real
@@ -27,101 +27,94 @@ videojuego
 - Trivia antes y después para reforzar lo aprendido
 - Gráficos estilo retro en pixel art
 
-## Pregunta de investigación
-<div class="flex flex-wrap justify-center gap-15">
+## ❓ Pregunta de investigación
+
 ¿Cómo influye el uso de un video juego educativo sobre datos del Universo en niños y niñas entre 8 a 15 años?
 
-</div>
 
-## Objetivo general
+
+## 🎯 Objetivo general
 
 Crear un video juego que enseñe sobre
 el Universo.
 
-## Objetivo específico
+## 📌 Objetivo específico
 
 Desarrollar un videojuego educativo
 sobre el Universo. Comparar el
 conocimiento previo y posterior al juego
 de los jugadores.
 
-## Hipótesis
+## 💡 Hipótesis
 
 Al crear un videojuego los
 aprenderán sobre el universo.
 
-## Materiales
+## 🧰 Materiales
 
-• Una pc o laptop
-• Internet
-• Plataforma Scratch
+- Una pc o laptop
+- Internet
+- Plataforma Scratch
 
-## Medidas de Seguridad
-• No acercarse demasiado a la pantalla
-de la pc o laptop.
-• Evitar estar frente a la computadora por
-tiempos muy prolongados
+## ⚠️ Medidas de Seguridad
+- No acercarse demasiado a la pantalla de la pc o laptop.
+- Evitar estar frente a la computadora por tiempos muy prolongados
 
-## Procedimiento
-• Se realizará un video juego en el que el
-jugador deberá obtener la mayor
-cantidad de diamantes.
-• Cada 3 diamantes capturados
-avanzan al siguiente nivel.
-• El juego consta de 8 niveles, en cada
-nivel habrá datos curiosos y preguntas
-relacionadas con esos datos.
+## 📝 Procedimiento
+- Se realizará un video juego en el que el jugador deberá obtener la mayor cantidad de diamantes.
+- Cada 3 diamantes capturados avanzan al siguiente nivel.
+- El juego consta de 8 niveles, en cada nivel habrá datos curiosos y preguntas relacionadas con esos datos.
 
-## Instrucciones del videojuego
-¡Hola, Explorador! Tu misión es
-recolectar
-el
-conocimiento
-del
-universo.
-¿Cómo se juega? Mueve tu nave de un
-lado a otro para atrapar las gemas del
-conocimiento.
-Usa las flechas (⬅️ ➡️) o desliza con
-tu dedo.
-Cuidado con los meteoros ☄️ Si te
-tocan… ¡la nave se destruye!
-Junta 3 gemas y… ¡avanzas al
-siguiente nivel con una nueva historia
-estelar!
-Recoge sabiduría, esquiva peligros y
-explora el cosmos con Lumi.
+<div class="flex flex-wrap gap-4 justify-center my-6">
+  <img src="/imgs/evidencia1.jpg" alt="Evidencia 1" class="w-35 h-20 rounded shadow" />
+  <img src="/imgs/evidencia2.jpg" alt="Evidencia 2" class="w-35 h-20 rounded shadow" />
+  <img src="/imgs/evidencia3.jpg" alt="Evidencia 3" class="w-35 h-20 rounded shadow" />
+  <img src="/imgs/evidencia4.jpg" alt="Evidencia 4" class="w-35 h-20 rounded shadow" />
+</div>
 
-1. Se realizarán preguntas para saber su
-conocimiento del universo previo al juego
-• ¿Cuántos años tienes?
-• ¿Qué gran idea tuvo Newton al ver caer una
-manzana?
-• ¿Qué es un agujero negro?
-• ¿Qué sucede cerca de un planeta gigante según
-Einstein?
-• ¿Qué es un agujero de gusano?
-2. Se realizan preguntas
-aprendizaje del universo.
-para
-validar
-• ¿Qué hizo famosa a una manzana que cayó
-de un árbol?
-• ¿Qué tan rápido viaja la luz?
-• ¿Qué es un agujero negro?
-• ¿Qué sucede cerca de un planeta gigante
-según Einstein?
-• ¿Qué es un agujero de gusano?
+## 🕹️ Instrucciones del videojuego
+¡Hola, Explorador! Tu misión es recolectar el conocimiento del universo. ¿Cómo se juega? Mueve tu nave de un lado a otro para atrapar las gemas del conocimiento. Usa las flechas (⬅️ ➡️) o desliza con tu dedo. Cuidado con los meteoros ☄️ Si te tocan… ¡la nave se destruye! Junta 3 gemas y… ¡avanzas al siguiente nivel con una nueva historia estelar! Recoge sabiduría, esquiva peligros y explora el cosmos con Lumi.
 
-## Resultados y análisis de resultados
+1. Se realizarán preguntas para saber su conocimiento del universo previo al juego 
+- ¿Cuántos años tienes?
+- ¿Qué gran idea tuvo Newton al ver caer una manzana?
+- ¿Qué es un agujero negro?
+- ¿Qué sucede cerca de un planeta gigante según Einstein?
+- ¿Qué es un agujero de gusano?
+2. Se realizan preguntas aprendizaje del universo. para validar
+- ¿Qué hizo famosa a una manzana que cayóde un árbol?
+- ¿Qué tan rápido viaja la luz?
+- ¿Qué es un agujero negro?
+- ¿Qué sucede cerca de un planeta gigante según Einstein?
+- ¿Qué es un agujero de gusano?
+
+## 📊 Resultados y análisis de resultados
 
 Numero de niños/niñas: 10
 
-### Antes del videojuego
+### ⏳ Antes del videojuego
 
-### Después del videojuego
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 my-4">
+  <img src="/imgs/grafica-antes-1.png" alt="Gráfica antes 1" class="w-full h-auto rounded shadow" />
+  <img src="/imgs/grafica-antes-2.png" alt="Gráfica antes 2" class="w-full h-auto rounded shadow" />
+  <img src="/imgs/grafica-antes-3.png" alt="Gráfica antes 3" class="w-full h-auto rounded shadow" />
+  <img src="/imgs/grafica-antes-4.png" alt="Gráfica antes 4" class="w-full h-auto rounded shadow" />
+  <img src="/imgs/grafica-antes-5.png" alt="Gráfica antes 5" class="w-full h-auto rounded shadow" />
+  <img src="/imgs/grafica-antes-6.png" alt="Gráfica antes 6" class="w-full h-auto rounded shadow" />
+</div>
 
-## Impacto social
+### ⏩ Después del videojuego
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 my-4">
+  <img src="/imgs/grafica-despues-1.png" alt="Gráfica después 1" class="w-full h-auto rounded shadow" />
+  <img src="/imgs/grafica-despues-2.png" alt="Gráfica después 2" class="w-full h-auto rounded shadow" />
+  <img src="/imgs/grafica-despues-3.png" alt="Gráfica después 3" class="w-full h-auto rounded shadow" />
+  <img src="/imgs/grafica-despues-4.png" alt="Gráfica después 4" class="w-full h-auto rounded shadow" />
+  <img src="/imgs/grafica-despues-5.png" alt="Gráfica después 5" class="w-full h-auto rounded shadow" />
+  <img src="/imgs/grafica-despues-6.png" alt="Gráfica después 6" class="w-full h-auto rounded shadow" />
+</div>
+
+## 🌍 Impacto social
 
 Este resultado confirma que el juego es
 una herramienta útil para acercar la
@@ -132,7 +125,7 @@ despierta preguntas y alimenta la
 curiosidad, que es el verdadero motor
 de la ciencia.
 
-## Conclusiones
+## 🏁 Conclusiones
 
 Este proyecto nació de la curiosidad y el entusiasmo de
 un niño de 8 años por los misterios del universo.
@@ -155,7 +148,7 @@ cómo funcionan los detectores de ondas gravitacionales).
 facilitó la comprensión sin necesidad de explicaciones
 técnicas.
 
-## Perspectivas a futuro
+## 🚀 Perspectivas a futuro
 
 Con base en esta experiencia, el proyecto
 tiene un gran potencial de crecimiento:
@@ -176,7 +169,7 @@ niño mira el cielo con asombro… ya empezó a
 aprender…
 
 
-## Fuentes bibliográficas
+## 📚 Fuentes bibliográficas
 
 Publicaciones y recursos educativos:
 Folleto de la NASA: "Cosas que los agujeros negros no son" es un tríptico
