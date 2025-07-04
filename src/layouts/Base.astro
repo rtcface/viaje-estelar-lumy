@@ -32,6 +32,9 @@ const min_footer_height = 3
 		<title>Viaje Estelar De Lumi</title>
 		<link rel="icon" href="/favicon.ico" />
 		<link rel="stylesheet" href="/css/minecraft.css">
+		<script
+      src="https://cdn.jsdelivr.net/npm/apexcharts@3.46.0/dist/apexcharts.min.js"
+    ></script>
 	</head>
 	<body class="scrollbar">
 		<slot name="first"/>
@@ -43,6 +46,7 @@ const min_footer_height = 3
         <main class={`min-h-[var(--main-height)] w-full bg-block-${block}`}>
 			<div class="min-h-[var(--main-height)] h-full w-full bg-dark-75">
 				<slot />
+				
 			</div>
 		</main>
 		{!noFooter &&

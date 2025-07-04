@@ -1,0 +1,176 @@
+<div
+  class="max-w-sm w-full rounded-lg shadow-sm bg-gray-800 p-4 md:p-6"
+>
+  <h4 class="text-lg font-semibold text-white mb-4">Calificaciones por niño</h4>
+  <div id="column-chart"></div>
+  
+  
+</div>
+
+<script>
+const options = {
+    colors: ["#8B0000", "#FF0000", "#FF4B33", "#f472b6", "#FF4B33", "#22c55e"], // cada barra diferente color
+    series: [
+      {
+        name: "Calificaciones por niño",
+        data: [
+          { x: "0", y: 3, fillColor: "#8B0000" },
+          { x: "1", y: 1, fillColor: "#FF0000" },
+          { x: "2", y: 2, fillColor: "#FF4B33" },
+          { x: "3", y: 0, fillColor: "#f472b6" },
+          { x: "4", y: 2, fillColor: "#FF4B33" },
+          { x: "5", y: 3, fillColor: "#22c55e" }
+        ],
+      }
+    ],
+    chart: {
+      type: "bar",
+      height: "320px",
+      fontFamily: "Inter, sans-serif",
+      toolbar: {
+        show: false,
+      },
+      background: "#1f2937", // fondo dark
+    },
+    plotOptions: {
+      bar: {
+        horizontal: false,
+        columnWidth: "70%",
+        borderRadiusApplication: "end",
+        borderRadius: 8,
+        distributed: true, // activa colores diferentes por barra
+      },
+    },
+    tooltip: {
+      shared: true,
+      intersect: false,
+      style: {
+        fontFamily: "Inter, sans-serif",
+        fontSize: "14px",
+        color: "#f3f4f6", // texto claro
+      },
+      theme: "dark",
+      y: {
+        formatter: function(val) {
+          return val;
+        }
+      },
+      marker: {
+        show: true,
+      },
+      custom: function({ series, seriesIndex, dataPointIndex, w }) {
+        // Tooltip personalizado para mejor contraste
+        const labels = w.globals.labels;
+        let html = `<div style="background:#111827;padding:8px 12px;border-radius:8px;color:#f3f4f6;">`;
+        html += `<div style="font-size:13px;margin-bottom:4px;">${labels[dataPointIndex]}</div>`;
+        w.config.series.forEach((s, i) => {
+          html += `<div style="display:flex;align-items:center;margin-bottom:2px;">
+            <span style="display:inline-block;width:10px;height:10px;background:${w.config.colors[i]};border-radius:50%;margin-right:6px;"></span>
+            <span>${s.name}: <b>${s.data[dataPointIndex].y}</b></span>
+          </div>`;
+        });
+        html += `</div>`;
+        return html;
+      }
+    },
+    states: {
+      hover: {
+        filter: {
+          type: "darken",
+          value: 1,
+        },
+      },
+    },
+    stroke: {
+      show: true,
+      width: 0,
+      colors: ["transparent"],
+    },
+    grid: {
+      show: true,
+      strokeDashArray: 4,
+      padding: {
+        left: 2,
+        right: 2,
+        top: -14,
+      },
+    },
+    dataLabels: {
+      enabled: true,
+      style: {
+        colors: ['#f3f4f6'], // color claro para los valores
+        fontSize: '14px',
+        fontFamily: 'Inter, sans-serif',
+        fontWeight: 'bold'
+      }
+    },
+    legend: {
+      show: true,
+      labels: {
+        colors: '#f3f4f6', // color claro para la leyenda en dark
+        useSeriesColors: false
+      }
+    },
+    xaxis: {
+      floating: false,
+      labels: {
+        show: true,
+        style: {
+          fontFamily: "Inter, sans-serif",
+          cssClass: "text-xs font-normal",
+          colors: "#f3f4f6", // color más claro para los meses
+        },
+      },
+      title: {
+        text: "Calificaciones Obtenidas",
+        style: {
+          color: "#f3f4f6",
+          fontSize: "14px",
+          fontWeight: "bold",
+          fontFamily: "Inter, sans-serif"
+        }
+      },
+      axisBorder: {
+        show: false,
+      },
+      axisTicks: {
+        show: false,
+      },
+    },
+    yaxis: {
+      show: true,
+      labels: {
+        show: false,
+        style: {
+          fontFamily: "Inter, sans-serif",
+          cssClass: "text-xs font-normal",
+          colors: "#f3f4f6",
+        }
+      },
+      title: {
+        text: "Total de niños",
+        style: {
+          color: "#f3f4f6",
+          fontSize: "14px",
+          fontWeight: "bold",
+          fontFamily: "Inter, sans-serif"
+        }
+      }
+    },
+    fill: {
+      opacity: 1,
+    },
+  };
+
+  if (
+    document.getElementById("column-chart") &&
+    typeof ApexCharts !== "undefined"
+  ) {
+    const chart = new ApexCharts(
+      document.getElementById("column-chart"),
+      options
+    );
+    chart.render();
+  }
+
+</script>

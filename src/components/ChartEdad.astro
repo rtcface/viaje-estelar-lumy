@@ -1,0 +1,179 @@
+<div
+  class="max-w-sm w-full rounded-lg shadow-sm bg-gray-800 p-4 md:p-6"
+>
+  <h4 class="text-lg font-semibold text-white mb-4">Edades de los niños</h4>
+  <div id="edades"></div>
+  
+  
+</div>
+
+<script>
+const options = {
+    colors: ["#60a5fa", "#fbbf24"], // azul claro y amarillo para mejor contraste en dark
+    series: [
+      {
+        name: "Total de niños",
+        color: "#60a5fa",
+        data: [
+          { x: "5", y: 3 },
+          { x: "6", y: 1 },
+          { x: "8", y: 2},
+          { x: "10", y: 1 },
+          { x: "11", y: 2 },
+          { x: "14", y: 1 }
+        ],
+      }
+      
+    ],
+    chart: {
+      type: "bar",
+      height: "320px",
+      fontFamily: "Inter, sans-serif",
+      toolbar: {
+        show: false,
+      },
+      background: "#1f2937", // fondo dark
+
+    },
+    plotOptions: {
+      bar: {
+        horizontal: false,
+        columnWidth: "70%",
+        borderRadiusApplication: "end",
+        borderRadius: 8,
+        distributed: true, // activa colores diferentes por barra
+      },
+    },
+    tooltip: {
+      shared: true,
+      intersect: false,
+      style: {
+        fontFamily: "Inter, sans-serif",
+        fontSize: "14px",
+        color: "#f3f4f6", // texto claro
+      },
+      theme: "dark",
+      y: {
+        formatter: function(val) {
+          return val;
+        }
+      },
+      marker: {
+        show: true,
+      },
+      custom: function({ series, seriesIndex, dataPointIndex, w }) {
+        // Tooltip personalizado para mejor contraste
+        const labels = w.globals.labels;
+        let html = `<div style="background:#111827;padding:8px 12px;border-radius:8px;color:#f3f4f6;">`;
+        html += `<div style="font-size:13px;margin-bottom:4px;">${labels[dataPointIndex]}</div>`;
+        w.config.series.forEach((s, i) => {
+          html += `<div style="display:flex;align-items:center;margin-bottom:2px;">
+            <span style="display:inline-block;width:10px;height:10px;background:${w.config.colors[i]};border-radius:50%;margin-right:6px;"></span>
+            <span>${s.name}: <b>${s.data[dataPointIndex].y}</b></span>
+          </div>`;
+        });
+        html += `</div>`;
+        return html;
+      }
+    },
+    states: {
+      hover: {
+        filter: {
+          type: "darken",
+          value: 1,
+        },
+      },
+    },
+    stroke: {
+      show: true,
+      width: 0,
+      colors: ["transparent"],
+    },
+    grid: {
+      show: true,
+      strokeDashArray: 4,
+      padding: {
+        left: 2,
+        right: 2,
+        top: -14,
+      },
+    },
+    dataLabels: {
+      enabled: true,
+      style: {
+        colors: ['#f3f4f6'], // color claro para los valores
+        fontSize: '14px',
+        fontFamily: 'Inter, sans-serif',
+        fontWeight: 'bold'
+      }
+    },
+    legend: {
+      show: true,
+      labels: {
+        colors: '#f3f4f6', // color claro para la leyenda en dark
+        useSeriesColors: false
+      }
+    },
+    xaxis: {
+      floating: false,
+      labels: {
+        show: true,
+        style: {
+          fontFamily: "Inter, sans-serif",
+          cssClass: "text-xs font-normal",
+          colors: "#f3f4f6", // color más claro para los meses
+        },
+      },
+      title: {
+        text: "Edad",
+        style: {
+          color: "#f3f4f6",
+          fontSize: "14px",
+          fontWeight: "bold",
+          fontFamily: "Inter, sans-serif"
+        }
+      },
+      axisBorder: {
+        show: false,
+      },
+      axisTicks: {
+        show: false,
+      },
+    },
+    yaxis: {
+      show: true,
+      labels: {
+        show: false,
+        style: {
+          fontFamily: "Inter, sans-serif",
+          cssClass: "text-xs font-normal",
+          colors: "#f3f4f6",
+        }
+      },
+      title: {
+        text: "Total de niños",
+        style: {
+          color: "#f3f4f6",
+          fontSize: "14px",
+          fontWeight: "bold",
+          fontFamily: "Inter, sans-serif"
+        }
+      }
+    },
+    fill: {
+      opacity: 1,
+    },
+  };
+
+  if (
+    document.getElementById("edades") &&
+    typeof ApexCharts !== "undefined"
+  ) {
+    const chart = new ApexCharts(
+      document.getElementById("edades"),
+      options
+    );
+    chart.render();
+  }
+
+</script>

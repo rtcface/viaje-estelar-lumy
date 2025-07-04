@@ -1,6 +1,9 @@
 ---
 import Base from "~/layouts/Base.astro";
 import Footer from "~/components/Footer.astro";
+import ChartEdad from "~/components/ChartEdad.astro";
+import ChartEstadistica from "~/components/ChartEstadistica.astro";
+import ChartEstadisticaPostGame from "~/components/ChartEstadisticaPostGame.astro";
 
 let docs = await Astro.glob('../pages/docs/*.md');
 docs = docs.filter((post) => !post.frontmatter.draft);
@@ -48,7 +51,22 @@ const heading_depth_class_map = {
         </aside>
         <div class="h-full w-full md:w-[calc(100vw_-_(var(--block-size)_*_6))]">
             <div class="flex flex-col h-full min-h-screen w-full md:w-[90%] lg:w-[80%] mx-auto px-3 overflow-visible markdown">
+                
                 <slot />
+                <ChartEdad id="chart-edad"/>
+                <h2 class="text-xl font-semibold text-white mb-4">⏳ Antes del videojuego</h2>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 my-4">                 
+                 <ChartEstadistica id="chart-bottom"/>  
+                </div>
+
+                <h2 class="text-xl font-semibold text-white mb-4">⏩ Después del videojuego</h2>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 my-4">                
+                    <ChartEstadisticaPostGame id="chart-bottom-post-game"/>
+                </div>
+
+                             
             </div>
             <Footer class="[--block-size:56px]" />
         </div>
