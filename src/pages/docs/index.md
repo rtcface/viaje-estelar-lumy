@@ -106,72 +106,69 @@ de la ciencia.
 
 ## 🏁 Conclusiones
 
-Este proyecto nació de la curiosidad y el entusiasmo de
-un niño de 8 años por los misterios del universo.
-Inspirado por las estrellas, los agujeros negros y las
-grandes preguntas de la ciencia, se desarrolló un
-videojuego educativo en versión beta que combina juego,
-narrativa y divulgación científica.
-Durante las pruebas, alrededor de 10 niños y niñas de
-entre 5 y 13 años jugaron “Viaje estelar de Lumi”. Antes
-y después del juego, respondieron una trivia para evaluar
-sus conocimientos. Los resultados mostraron que:
-🧠 Los más pequeños (5–8 años) aprendieron conceptos
-nuevos que nunca habían escuchado, como “gravedad”
-o “agujero de gusano”, de forma divertida y recordable.
-🔍 Los mayores (9–13 años) reafirmaron conocimientos
-que ya conocían y mostraron interés por investigar más
-allá del juego (por ejemplo, buscaron qué era el M87\* o
-cómo funcionan los detectores de ondas gravitacionales).
-🎮 La mecánica sencilla, junto con la guía de Lumi,
-facilitó la comprensión sin necesidad de explicaciones
-técnicas.
+- Este proyecto nació de la curiosidad y el entusiasmo de
+  un niño de 8 años por los misterios del universo.
+
+- Inspirado por las estrellas, los agujeros negros y las
+  grandes preguntas de la ciencia, se desarrolló un
+  videojuego educativo en versión beta que combina juego,
+  narrativa y divulgación científica.
+
+- Durante las pruebas, alrededor de 10 niños y niñas de
+  entre 5 y 13 años jugaron “Viaje estelar de Lumi”.
+
+- Antes y después del juego, respondieron una trivia para evaluar
+  sus conocimientos.
+  -Los resultados mostraron que:
+  🧠 Los más pequeños (5–8 años) aprendieron conceptos
+  nuevos que nunca habían escuchado, como “gravedad”
+  o “agujero de gusano”, de forma divertida y recordable.
+
+- 🔍 Los mayores (9–13 años) reafirmaron conocimientos
+  que ya conocían y mostraron interés por investigar más
+  allá del juego (por ejemplo, buscaron qué era el M87\* o
+  cómo funcionan los detectores de ondas gravitacionales).
+
+- 🎮 La mecánica sencilla, junto con la guía de Lumi,
+  facilitó la comprensión sin necesidad de explicaciones
+  técnicas.
 
 ## 🚀 Perspectivas a futuro
 
 Con base en esta experiencia, el proyecto
 tiene un gran potencial de crecimiento:
-• Agregar nuevos niveles sobre otros temas
-del universo, como planetas, exoplanetas,
-estrellas y galaxias.
-• Incluir minijuegos cooperativos o actividades
-de experimentación simple.
-• Traducir el juego a otros idiomas para llegar
-a más niños.
-• Diseñar una guía para docentes o familias,
-que acompañe el juego con actividades offline.
-• Incorporar voces reales para una experiencia
-más inmersiva.
-Este juego es solo el comienzo de una gran
-aventura espacial educativa. Porque cuando un
-niño mira el cielo con asombro… ya empezó a
-aprender…
+
+- Agregar nuevos niveles sobre otros temas
+  del universo, como planetas, exoplanetas,
+  estrellas y galaxias.
+- Incluir minijuegos cooperativos o actividades
+  de experimentación simple.
+- Traducir el juego a otros idiomas para llegar
+  a más niños.
+- Diseñar una guía para docentes o familias,
+  que acompañe el juego con actividades offline.
+- Incorporar voces reales para una experiencia
+  más inmersiva.
+  Este juego es solo el comienzo de una gran
+  aventura espacial educativa. Porque cuando un
+  niño mira el cielo con asombro… ya empezó a
+  aprender…
 
 ## 📚 Fuentes bibliográficas
 
-Publicaciones y recursos educativos:
-Folleto de la NASA: "Cosas que los agujeros negros no son" es un tríptico
-que desmitifica conceptos erróneos sobre los agujeros negros y
-proporciona datos interesantes de manera sencilla.
-svs.gsfc.nasa.gov
-Artículo de National Geographic: "Agujeros negros: qué son y cómo
-encontrarlos" ofrece una explicación detallada y accesible sobre la
-naturaleza de los agujeros negros y su detección en el universo.
-nationalgeographic.es
-• Videos educativos:
-"¿Qué son los agujeros de gusano y por qué podrían ser la clave para
-viajar en el tiempo?" Este video de YouTube explica de manera sencilla y
-visual qué son los agujeros de gusano y su relevancia en la física teórica.
-youtube.com
-"Agujeros de gusano o cómo romper el espacio tiempo": Este video
-aborda la posibilidad de los agujeros de gusano y su implicación en la
-estructura del espacio-tiempo.
-youtube.com
-• Artículos y blogs:
-"Agujeros negros: a través del tiempo y del espacio": Este artículo del blog
-BioLab ZV aborda preguntas complejas sobre los agujeros negros y los
-agujeros de gusano de manera accesible.
-biolabzv.blogspot.com
+### Publicaciones y recursos educativos
+
+- [Folleto de la NASA: "Cosas que los agujeros negros no son"](https://svs.gsfc.nasa.gov/vis/a010000/a013300/a013322/BlackHoleTrifold_es_printable.pdf): Tríptico que desmitifica conceptos erróneos sobre los agujeros negros y proporciona datos interesantes de manera sencilla.
+- [Artículo de National Geographic: "Agujeros negros: qué son y cómo encontrarlos"](https://www.nationalgeographic.es/espacio/agujeros-negros): Explicación detallada y accesible sobre la naturaleza de los agujeros negros y su detección en el universo.
+
+#### Videos educativos
+
+- [¿Qué son los agujeros de gusano y por qué podrían ser la clave para viajar en el tiempo?](https://www.youtube.com/watch?v=bWl21CgyBXY): Video de YouTube que explica de manera sencilla y visual qué son los agujeros de gusano y su relevancia en la física teórica.
+- [Agujeros de gusano o cómo romper el espacio tiempo](https://www.youtube.com/watch?v=duIDvO_QGBY): Video que aborda la posibilidad de los agujeros de gusano y su implicación en la estructura del espacio-tiempo.
+
+#### Artículos y blogs
+
+- [Agujeros negros: a través del tiempo y del espacio](https://biolabzv.blogspot.com/2014/02/agujeros-negros-traves-del-tiempo-y-del.html): Artículo del blog BioLab ZV que aborda preguntas complejas sobre los agujeros negros y los agujeros de gusano de manera accesible.
 
 ## 📊 Resultados y análisis de resultados
 
